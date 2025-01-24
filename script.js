@@ -1,7 +1,7 @@
 function minDate(dates) {
   //write you code here
 	ket date = dates.map(dat => new Date(dat));
-	let minDate = new Date(Math.min(....date));
+	let minDate = new Date(Math.min(...date));
 	return minDate;
 }
 
@@ -39,5 +39,5 @@ var dates = [
   "2023/03/29",
   "2023/03/30",
 ];
-
-alert(minDate(dates));
+ 
+alert(minDate(dates)); 
