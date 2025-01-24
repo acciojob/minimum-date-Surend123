@@ -2,7 +2,7 @@ function minDate(dates) {
   //write you code here
 	ket date = dates.map(dat => new Date(dat));
 	let minDate = new Date(Math.min(...date));
-	return minDate;
+	console.log(minDate);
 }
 
 // Do not change the code
