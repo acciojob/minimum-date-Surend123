@@ -1,10 +1,12 @@
 function minDate(dates) {
-  //write you code here
-	ket date = dates.map(dat => new Date(dat));
-	let minDate = new Date(Math.min(...date));
-	console.log(minDate);
+  let minDate = dates[0];
+	for(let i=1;i<dates.length;i++){
+		if(dates[i]<minDate){
+			minDate = dates[i];
+		}
+	}
+	return minDate;
 }
-
 // Do not change the code
 
 var dates = [
